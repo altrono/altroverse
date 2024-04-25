@@ -4,7 +4,8 @@ import  { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
-const Navbar = () => (
+const Navbar = () => {
+  return (
   <motion.nav
     variants={navVariants}
     initial="hidden"
@@ -24,6 +25,6 @@ const Navbar = () => (
       <img src="/menu.svg" alt="menu" className='w-[24px] h-[24px] object-contain' />
     </div>
   </motion.nav>
-);
+)};
 
 export default Navbar;
