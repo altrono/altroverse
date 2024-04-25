@@ -35,6 +35,6 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => {
       </div>
     </motion.div>
   )
-}
+};
 
 export default InsightCard;
