@@ -30,14 +30,14 @@ const About = () => (
         like it's really real, you can feel what you feel in this metaverse
         world, because this is really the{' '}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+          madness of the altroverse
         </span>{' '}
         of today, using only{' '}
         <span className="font-extrabold text-white">VR</span> devices you can
         easily explore the metaverse world you want, turn your dreams into
         reality. Let's{' '}
         <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        of the altroverse by scrolling down
       </motion.p>
 
       <motion.img
