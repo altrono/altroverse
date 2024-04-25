@@ -3,7 +3,8 @@
 import { motion } from 'framer-motion'; 
 import { textContainer, textVariant2 } from '../utils/motion'; 
 
-export const TypingText = ({ title, textStyle }) => (
+export const TypingText = ({ title, textStyle }) => {
+  return (
   <motion.p variants={textContainer} className={`font-normal text-[14px] text-secondary-white ${textStyle}`}>
     {Array.from(title).map((letter, index) => (
       <motion.span
@@ -14,9 +15,10 @@ export const TypingText = ({ title, textStyle }) => (
       </motion.span>
     ))}
   </motion.p>
-);
+)};
 
-export const TitleText = ({ title, textStyles }) => (
+export const TitleText = ({ title, textStyles }) => {
+  return (
   <motion.h2
     variants={textVariant2}
     initial="hidden"
@@ -25,4 +27,4 @@ export const TitleText = ({ title, textStyles }) => (
   >
     {title}
   </motion.h2>
-);
+)};
