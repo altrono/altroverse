@@ -1,3 +1,4 @@
+'use client';
 import { motion } from 'framer-motion'; // Single quotes
 import { textContainer, textVariant2 } from '../utils/motion'; // Single quotes
 
